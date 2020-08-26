@@ -29,7 +29,7 @@ It is advisable to **reset your EEPROM defaults** with `M502` if you are running
 
 ## Tools
 
-[Compare with Marlin official branch](https://github.com/kind3r/genius-firmware-mks-sgen-l/compare/mks-sgen-l-2.0.x...MarlinFirmware:2.0.x) for rebase.
+[Compare with Marlin official branch](https://github.com/kind3r/genius-firmware-mks-sgen-l/compare/2.0.x...MarlinFirmware:2.0.x) for rebase.
 
 ---
 
