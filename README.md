@@ -1,4 +1,4 @@
-# Artillery Genius Marlin build for the MKS SGEN L 32bit board and TMC2209 drivers
+# Artillery Genius Marlin build for the MKS SGEN L 32bit board and TMC2209 drivers and Hemera extruder
 
 This repository contains my modified **Marlin 2.x firmware** (mostly configuration files) designed to run on the Artillery Genius upgraded with a **MKS SGEN L 32bit** board and **TMC2209** stepper motor drivers running in UART mode with sensorles homing and **BLTouch**.
 

@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "SGEN-2.0.6-2"
+#define SHORT_BUILD_VERSION "HEMERA-SGEN-2.0.6-2"
 
 /**
  * Verbose version identifier which should contain a reference to the location
