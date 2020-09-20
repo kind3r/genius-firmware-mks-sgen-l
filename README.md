@@ -1,3 +1,38 @@
+# Artillery Genius Marlin build for the MKS SGEN L 32bit board and TMC2209 drivers
+
+This repository contains my modified **Marlin 2.x firmware** (mostly configuration files) designed to run on the Artillery Genius upgraded with a **MKS SGEN L 32bit** board and **TMC2209** stepper motor drivers running in UART mode with sensorles homing and **BLTouch**.
+
+Features enabled in this build:
+- Save to EEPROM
+- Auto bed leveling with 4x4 matrix, 3 subdivisions and extrapolation 
+- BLTouch High Speed mode
+- Sensorless homing for X and Y axis
+- Linear advance 1.5
+- Junction Deviation instead of Classic Jerk
+- Babystepping
+- `M122` TMC drivers extended debug information
+- Sensible defaults
+  - Lower max and default acceleration (800/1000mm/s^2)
+  - Lower max feedrates
+  - Reasonable sensitivity for sensorless homing
+  - Lower motor curents (compared to the default TMC2100 ones) to protect drivers from overheating
+
+Instructions on how to replace your **MKS GEN L 8bit** board with **MKS SGEN L 32bit** board can be found in [my 3D printing guide website](https://artillery.n3t.ro/2020/05/14/MKS-SGEN-L-32bit-board.html).
+
+I will try to keep this up to date with [Marlin](https://marlinfw.org/) releases as it is the firmware I'm currently using. I will state here if this changes.
+
+## Instalation
+
+Download the latest release that starts with **SGEN-**, rename the .bin file to **firmware.bin**, copy to an SD Card, insert it in your board and start the printer. Update should happen automatically.
+
+It is advisable to **reset your EEPROM defaults** with `M502` if you are running this firmware for the first time. It might also be neccesary to reset from time to time if so indicated in the release notes.
+
+## Tools
+
+[Compare with Marlin official branch](https://github.com/kind3r/genius-firmware-mks-sgen-l/compare/2.0.x...MarlinFirmware:2.0.x) for rebase.
+
+---
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
