@@ -70,7 +70,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(kind3r, Artillery Genius 32bit, 2.0.6-2)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(kind3r, Artillery Genius 32bit, 2.0.7.2-1)" // Who made the changes.
 #define CUSTOM_VERSION_FILE CustomVersion.h // Path from the root directory (no quotes)
 
 /**
